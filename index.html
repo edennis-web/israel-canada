@@ -118,7 +118,7 @@ header .logo{height:36px}
 .logoPh{width:36px;height:36px;flex:none;border:1.5px dashed rgba(var(--fg-rgb),.45);display:grid;place-items:center;font-size:9.5px;font-weight:500;letter-spacing:.06em;color:rgba(var(--fg-rgb),.6)}
 .clientMark b{font-size:20px;font-weight:800;letter-spacing:-.005em;line-height:1}
 header .moveo{display:flex;align-items:center;direction:ltr;color:var(--fg);line-height:1}
-header .moveo span{display:inline-flex;align-items:baseline;gap:.19em;font-size:25px;white-space:nowrap;font-family:"Ulm Grotesk","Helvetica Neue",Arial,sans-serif;font-weight:500;letter-spacing:-.04em}
+header .moveo span{display:inline-flex;align-items:baseline;gap:.19em;font-size:34px;white-space:nowrap;font-family:"Ulm Grotesk","Helvetica Neue",Arial,sans-serif;font-weight:500;letter-spacing:-.04em}
 header .moveo span b{font-family:"Unbounded",system-ui,sans-serif;font-weight:700;letter-spacing:-.05em;font-size:.9em}
 .bar{position:absolute;top:0;right:0;height:3px;background:var(--accent);z-index:30;width:0}
 
@@ -409,14 +409,14 @@ ol.list small{display:block;font-size:14px;font-weight:300;color:rgba(var(--fg-r
 
 /* ===== responsive ===== */
 @media (max-width:1280px){
-  header .moveo span{font-size:19px} header .moveo img{width:38px;height:38px} header .logo{height:32px}
+  header .moveo span{font-size:26px} header .moveo img{width:38px;height:38px} header .logo{height:32px}
   .panel{width:36vw}
   .facts{grid-template-columns:1fr}
 }
 @media (max-width:900px), (max-aspect-ratio:1/1){
   :root{--s:min(32vh,70vw);--gut:6vw}
   .cue{display:none}
-  header .moveo span{font-size:16px}
+  header .moveo span{font-size:22px}
   nav.steps{display:none}
   .panel,.panel.hero{right:var(--gut);width:calc(100vw - 2*var(--gut));top:71%}
   .panel h1{font-size:clamp(40px,10vw,72px)}
